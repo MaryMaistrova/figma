@@ -103,6 +103,51 @@ h2 {
   border-radius: 4px;
 }
 
+.features {
+  background-image: url(images/bg-f-panel.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
+.features h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.features ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.features ul li {
+  margin-left: 40px;
+  min-width: 260px;
+}
+
+.features p {
+  display: inline-block;
+  text-wrap: wrap; 
+  min-width: 250px; 
+}
+
+.features button {
+  background-color: #FF9900;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  border-color: #BCD0E5;
+  border-width: 1px;
+  border-radius: 4px;
+  display: flex;
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding: 13px 40px;
+}
+
 
 
 footer {
@@ -134,7 +179,7 @@ footer li {
   margin-left: 40px;
 }
 
-.container-phone > * {
+.container-phone>* {
   margin-bottom: 20px;
 }
 
@@ -176,4 +221,3 @@ footer li {
   height: 50px;
   font-weight: bold;
 }
-
