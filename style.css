@@ -102,3 +102,42 @@ h2 {
   border-width: 1px;
   border-radius: 4px;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 130px;
+  margin-top: 170px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.container-phone > * {
+  margin-bottom: 25px;
+}
+#phone {
+  margin-bottom: 25px;
+}
+
+.container-phone button {
+  display: block;
+}
+
+#phone {
+  display: block;
+  width: 212px;
+  height: 20px;
+  padding: 15px 118px, 15px, 10px;
+  border-color: #BCD0E5;
+  border-width: 1px;
+  border-radius: 4px;
+}
+
+::placeholder {
+  color: #BCD0E5;
+  font-size: 16px;
+  font-family: "Montserrat";
+}
+
