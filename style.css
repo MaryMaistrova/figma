@@ -103,32 +103,54 @@ h2 {
   border-radius: 4px;
 }
 
+
+
 footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 130px;
   margin-top: 170px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+footer div:first-of-type {
+  margin-top: 20px;
+}
+
+footer h4 {
+  font-size: 20px;
 }
 
 footer ul {
   list-style: none;
 }
 
+footer li {
+  margin-bottom: 15px;
+}
+
+.column h4 {
+  margin-left: 40px;
+}
+
 .container-phone > * {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
+
+.container-phone h4 {
+  width: 280px;
+  text-wrap: wrap;
+}
+
 #phone {
   margin-bottom: 25px;
 }
 
-.container-phone button {
-  display: block;
-}
-
 #phone {
   display: block;
-  width: 212px;
-  height: 20px;
+  width: 340px;
+  height: 40px;
   padding: 15px 118px, 15px, 10px;
   border-color: #BCD0E5;
   border-width: 1px;
@@ -139,5 +161,19 @@ footer ul {
   color: #BCD0E5;
   font-size: 16px;
   font-family: "Montserrat";
+}
+
+.container-phone button {
+  display: block;
+  background-color: #FF9900;
+  font-family: "Montserrat";
+  font-size: 16px;
+  color: #fff;
+  border-color: #BCD0E5;
+  border-width: 1px;
+  border-radius: 4px;
+  width: 180px;
+  height: 50px;
+  font-weight: bold;
 }
 
