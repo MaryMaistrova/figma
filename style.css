@@ -65,10 +65,16 @@ nav a:hover {
 }
 
 .hero {
-  display: flex;
-  margin: 151px 120px 120px 150px;
+  margin: 151px 0 120px 0;
   min-width: 100%;
   width: 1200px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .container-main {
@@ -88,7 +94,6 @@ h2 {
 .hero img {
   width: 644px;
   height: 495px;
-  margin-left: 100px;
 }
 
 .get {
